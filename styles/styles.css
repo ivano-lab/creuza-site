@@ -49,6 +49,16 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-      font-size: 10px; 
+    font-size: 10px; 
+  }
+
+  .footer-container {
+      flex-direction: column; /* Muda a direção do flex para coluna */
+      align-items: center; /* Centraliza os itens */
+  }
+
+  .contact-info, .links, .social-media {
+      width: 100%; /* Cada seção ocupa toda a largura disponível */
+      margin-bottom: 15px; /* Espaçamento entre as seções */
   }
 }

@@ -46,6 +46,10 @@ a {
   width: 30%; 
 }
 
+.social-media img {
+  width: 60px;   
+}
+
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
@@ -61,7 +65,7 @@ ul {
   }
 
   img {
-    width: 40px;
+    width: 100px;
   }  
 
 
@@ -74,4 +78,5 @@ ul {
       width: 100%; 
       margin-bottom: 15px; 
   }
+
 }

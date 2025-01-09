@@ -145,8 +145,8 @@ ul {
     z-index: 1; 
     max-height: 0; 
     overflow: hidden; 
-    transition: max-height 0.7s ease-in-out; 
-    background-color: rgba(211, 211, 211, 0.9); 
+    transition: max-height 0.3s ease-in-out, background-color 0.3s ease-in-out;  
+    background-color: rgba(240, 240, 240, 0.9); 
   }
 
   .nav-menu.active {

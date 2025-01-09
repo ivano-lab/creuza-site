@@ -136,7 +136,12 @@ ul {
   }
 
   .nav-menu {
-    display: none; 
+    /*display: none;*/
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
     flex-direction: column; 
     width: 100%; 
     position: absolute;

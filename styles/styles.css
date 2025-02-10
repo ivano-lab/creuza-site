@@ -162,6 +162,20 @@ ul {
   margin: 0;
 }
 
+iframe {
+  border: 3px double green; /* Define a borda: espessura, estilo e cor */
+  border-radius: 5px;       /* Arredonda os cantos da borda */
+  box-shadow: 2px 2px 2px gray; /* Adiciona uma sombra */
+  width: 500px;             /* Define a largura */
+  height: 300px;            /* Define a altura */
+}
+
+iframe:hover {
+  border-color: darkgreen;   /* Altera a cor da borda no hover */
+  box-shadow: 4px 4px 4px darkgray; /* Altera a sombra no hover */
+}
+
+
 @media (max-width: 768px) {
   .logo {
     width: 20px;
